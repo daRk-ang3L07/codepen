@@ -22,7 +22,7 @@
     "words-to-numbers": "^1.6.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm audit fix --force react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
